@@ -1,0 +1,29 @@
+JS FOR TEST
+// const form = document.querySelector(".testForm form");
+// continueBtn = form.querySelector(".testBtn input");
+
+// form.onsubmit = (e) => {
+//   e.preventDefault();
+// };
+
+// continueBtn.onclick = () => {
+//   let xhr = new XMLHttpRequest();
+//   if (!xhr.open("POST", "includes/test.inc.php", true)) {
+//     console.log("INCLUDE");
+//   } else {
+//     console.log("NOT incldue");
+//   }
+//   xhr.onLoad = () => {
+//     if (xhr.readyState === XMLHttpRequest.done) {
+//       if (xhr.status === 200) {
+//         let data = xhr.response;
+//         console.log(data);
+//       } else {
+//         console.log("Nostatsu");
+//       }
+//     } else {
+//       console.log("Noready");
+//     }
+//   };
+//   xhr.send();
+// };
